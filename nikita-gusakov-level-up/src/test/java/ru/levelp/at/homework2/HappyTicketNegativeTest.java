@@ -11,6 +11,8 @@ public class HappyTicketNegativeTest {
         return new Object[][] {
                 {"asdasd"},
                 {"      "},
+                {"123"},
+                {"1234567"},
                 {"123.569"},
                 {"123-123"},
                 {""},

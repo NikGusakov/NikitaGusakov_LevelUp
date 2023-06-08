@@ -23,7 +23,7 @@ public class Program {
                 System.out.println("Это не счастливый билет :(");
             }
         } catch (IllegalArgumentException e) {
-            System.out.println("Введенное значение не является целым числом");
+            System.out.println(e.getMessage());
         }
     }
 }

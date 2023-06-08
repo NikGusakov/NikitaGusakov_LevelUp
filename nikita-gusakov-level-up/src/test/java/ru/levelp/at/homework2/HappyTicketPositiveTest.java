@@ -14,9 +14,8 @@ public class HappyTicketPositiveTest {
                 {"999999", true},
                 {"000000", true},
                 {"543921", true},
-                {"123", false},
-                {"1234567", false},
                 {"543643", false},
+                {"111999", false},
                 //{"123123", false}
         };
     }
